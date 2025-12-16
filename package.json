@@ -1,0 +1,14 @@
+{
+  "name": "@smoxy-io/js-utils",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/smoxy-io/js-utils.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "framebus": "^6.0.3",
+    "jwt-decode": "^4.0.0",
+    "lodash": "^4.17.21"
+  }
+}
