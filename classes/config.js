@@ -1,5 +1,5 @@
 import {isBoolean, isEqual, isFunction, isPlainObject, isString, merge} from 'lodash';
-import {plain} from '../lib/object';
+import {plain} from '../lib/object.js';
 import {has} from 'lodash/object';
 
 const defaultProps = {};

@@ -1,5 +1,5 @@
 import {isPlainObject, merge} from 'lodash';
-import {plain} from '../lib/object';
+import {plain} from '../lib/object.js';
 
 const defaultProps = {
   sid: ''

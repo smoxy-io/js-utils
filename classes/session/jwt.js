@@ -1,7 +1,7 @@
 import {isNumber, isPlainObject, merge} from 'lodash';
 import {plain} from '../../lib/object';
 import {isAsync} from '../../lib/function';
-import {Session} from '../session';
+import {Session} from '../session.js';
 import {decodeToken} from '../../lib/jwt';
 
 const defaultProps = {

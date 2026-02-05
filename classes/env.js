@@ -1,6 +1,6 @@
 import {isEqual, isFunction, isPlainObject, merge} from 'lodash';
-import {plain} from '../lib/object';
-import {isAsync} from '../lib/function';
+import {plain} from '../lib/object.js';
+import {isAsync} from '../lib/function.js';
 
 export const WindowLocation = 'windowLocation';
 export const ParentWindowLocation = 'parentWindowLocation';

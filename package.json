@@ -1,6 +1,7 @@
 {
   "name": "@smoxy-io/js-utils",
   "version": "1.0.0",
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "https://github.com/smoxy-io/js-utils.git"
@@ -10,5 +11,13 @@
     "framebus": "^6.0.3",
     "jwt-decode": "^4.0.0",
     "lodash": "^4.17.21"
+  },
+  "exports": {
+    ".": "./index.js",
+    "./classes": "./classes/index.js",
+    "./lib": "./lib/index.js",
+    "./lib/*": "./lib/*.js",
+    "./classes/session/*": "./classes/session/*.js",
+    "./classes/*": "./classes/*.js"
   }
 }
