@@ -10,7 +10,7 @@
   "dependencies": {
     "framebus": "^6.0.3",
     "jwt-decode": "^4.0.0",
-    "lodash": "^4.17.21"
+    "lodash": "^4.17.23"
   },
   "exports": {
     ".": "./index.js",
